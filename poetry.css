@@ -41,13 +41,26 @@ article.poetry h1 {
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 1rem;
+  text-align: left;
+}
+
+.poetry-meta {
+  text-align: left;
+  text-indent: 0;
 }
 
 /* Poem Text */
+
+.poetry-body {
+  margin-top: 3rem;
+  text-align: left;
+}
+
 .poetry-body p {
   font-size: 1.1rem;
   line-height: 1.8;
   margin-bottom: 1rem;
+  text-indent: 0px;
 }
 
 /* (Optional) If you still have a date or author once, style them as you like:
